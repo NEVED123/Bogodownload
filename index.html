@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Bogodownload 🤯</title>
+  </head>
+  <body>
+    <h1>Why Bogodownload?</h1>
+    Bogodownload is a clever way to download any 
+    file you could imagine, without even using the internet!
+
+    <h2>How does it work?</h2>
+    Bogodownload will generate a random binary file anywhere 
+    between 1KB and 10MB, with a randomized file extension. Therefore, there is a small (but not zero!)
+    chance that the file you download will be exactly the file you want. (Guys I swear its not a virus trust me bro)
+
+    <h2>Select Your OS</h2>   
+    <div class="oscontainer">
+      <div class="os">
+        <img class="oslogo" src="assets/windows-logo.png">
+        <h3>Windows</h3>
+        <input type="radio" name="os">
+      </div>
+      <div class="os">
+        <img class="oslogo" src="assets/linux-logo.png">
+        <h3>Linux</h3>
+        <input type="radio" name="os">
+      </div>
+      <div class="os">
+        <img class="oslogo" src="assets/apple-logo.svg">
+        <h3>Mac</h3>
+        <input type="radio" name="os">
+      </div>
+    </div>
+    <button class="download" id="download-button">Download</button>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

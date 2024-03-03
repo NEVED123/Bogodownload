@@ -1,0 +1,26 @@
+{
+  "name": "bogodownload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NEVED123/Bogodownload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NEVED123/Bogodownload/issues"
+  },
+  "homepage": "https://github.com/NEVED123/Bogodownload#readme",
+  "devDependencies": {
+    "electron": "^28.2.3"
+  },
+  "dependencies": {
+    "electron-dl": "^3.5.2"
+  }
+}

@@ -1,0 +1,22 @@
+.download {
+    width: calc(100% - 40px);
+    margin: 20px;
+}
+
+.os {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oscontainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oslogo {
+    width: 100px;
+    height: 100px;
+}
+
