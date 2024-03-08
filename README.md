@@ -8,6 +8,8 @@ Bogodownload harnesses the power of [Bogosort](https://en.wikipedia.org/wiki/Bog
 
 ## Installation
 
+**This project uses NodeJS. If you do not have it installed, download [here](https://nodejs.org/en/download/current)**.
+
 Download the repository using git:
 
 `git clone https://github.com/NEVED123/Bogodownload.git`
@@ -15,6 +17,10 @@ Download the repository using git:
 Navigate to the directory:
 
 `cd Bogodownload`
+
+Install dependencies, the last time you'll ever need an internet connection!
+
+`npm install`
 
 Run the program, and download all the files you want:
 
